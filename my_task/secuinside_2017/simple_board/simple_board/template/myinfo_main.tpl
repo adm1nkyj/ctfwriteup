@@ -1,0 +1,1 @@
+<a href='index.php'>main</a> | <a href='?page=myinfo&mode=profile'>profile</a> | <a href='?page=myinfo&mode=mypost'>my post</a><br/> 

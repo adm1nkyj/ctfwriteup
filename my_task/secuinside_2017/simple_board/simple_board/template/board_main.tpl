@@ -1,0 +1,1 @@
+<a href='index.php'>main</a> | <a href='?page=board&mode=write'>write</a><br/> 

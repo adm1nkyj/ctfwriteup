@@ -1,0 +1,1 @@
+<a href='?page=board'>board</a> | <a href='?page=myinfo'>myinfo</a> | <a href='?page=logout'>logout</a>
